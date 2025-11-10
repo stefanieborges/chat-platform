@@ -224,7 +224,7 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(build.artifactStagingDirectory)'
-    ArtifactName: 'backend'
+    ArtifactName: 'backend' //ou 'client'
 ```
 
 ### Vantagens do Deploy Automatizado:
