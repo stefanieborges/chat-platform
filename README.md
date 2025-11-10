@@ -119,6 +119,7 @@ Para otimizar a performance e a experiência do usuário, implementamos lazy loa
 
 A plataforma conta com um assistente de IA inteligente, integrado à API da OpenAI, oferecendo respostas contextuais e naturais.
 <img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215613.png" />
+
 ### Exemplo de Integração:
 
 ```csharp
