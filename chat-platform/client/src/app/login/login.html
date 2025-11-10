@@ -1,0 +1,39 @@
+<form #userForm="ngForm" (ngSubmit)="login()" class="md:flex justify-center px-20 bg-white gap-10">
+    <div class="bg-white my-10 rouded md:w-1/4 flex flex-col gap-3 shadow-sm drop-shadow-md">
+        <div class="text-center">
+            <mat-icon class="material-icons text-9xl text-blue-950 bg-white">person</mat-icon>
+            <div class="text-2xl my-2 font-medium">
+                Login
+            </div>
+        </div>
+        <div class="w-full px-4 mt-10">     
+            <mat-form-field class="w-full" appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput required #emailModel="ngModel" name="email" placeholder="Email" [(ngModel)]="email">
+                @if(emailModel.errors?.['required']){
+                    <mat-error>O email é obrigatório</mat-error>
+                }
+            </mat-form-field>
+
+            <mat-form-field class="w-full" appearance="fill">
+                <mat-label>Senha</mat-label>
+                <input matInput required #passwordModel="ngModel" [type]="hide() ? 'password' : 'text'" name="password" [(ngModel)]="password"> 
+                  @if(passwordModel.errors?.['required']){
+                    <mat-error>A senha é obrigatória</mat-error>
+                }    
+                <button mat-icon-button matSuffix (click)="togglePassword($event)" type="button">
+                    <mat-icon>{{ hide() ? 'visibility_off' : 'visibility' }}</mat-icon>
+                    </button>
+            </mat-form-field>
+
+
+            <button type="submit" [disabled]="!userForm.valid" class="w-full mb-5 bg-blue-900 text-white rounded-md p-2 disabled:opacity-30">
+                Login
+            </button>
+            
+            <p class="font-bold text-xs text-center pb-10">
+                Ainda não tem uma conta? <a class="text-blue-500" [routerLink]="'/register'">Registre-se!</a>
+            </p>
+        </div>
+    </div>   
+</form>
