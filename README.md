@@ -313,6 +313,6 @@ npm install
 npm start
 ```
 
-**A aplicação estará disponível em**: `http://localhost:4200`
+**A aplicação estará disponível em**: `https://localhost:4200`
 
 ---
