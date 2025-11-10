@@ -254,8 +254,6 @@ O projeto utiliza SQL Server hospedado no Azure SQL Database, garantindo alta di
 
 - **Users**: Informações dos usuários
 - **Messages**: Mensagens do chat entre usuários
-- **AIConversations**: Histórico de conversas com IA
-- **Tokens**: Gerenciamento de tokens de autenticação
 
 ### Migrations:
 
