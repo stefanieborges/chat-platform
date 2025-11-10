@@ -64,6 +64,7 @@ Esta é uma plataforma de chat completa desenvolvida com .NET e Angular, que ofe
 ### Frontend
 - **Angular 22**
 - **Angular Materials** - Componentes UI
+- **Tailwind** 
 
 ### Infraestrutura
 - **Azure App Service** - Hospedagem da aplicação
