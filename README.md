@@ -9,7 +9,7 @@
 
 **Plataforma de chat completa com comunicação em tempo real e assistente de IA integrado**
 
-[Demo Frontend](https://chatplatformapp-ui.azurewebsites.net) • [API Backend](https://chatplatformapi.azurewebsites.net/scalar/)
+[Frontend](https://chatplatformapp-ui.azurewebsites.net) • [API Backend](https://chatplatformapi.azurewebsites.net/scalar/)
 
 </div>
 
@@ -81,10 +81,13 @@ O sistema implementa autenticação baseada em JSON Web Tokens (JWT), garantindo
 ### Como funciona:
 
 1. **Cadastro**: Usuário cria uma conta com credenciais seguras
-2. **Login**: Sistema valida as credenciais e gera um token JWT
-3. **Armazenamento**: Token é armazenado no localStorage do navegador
-4. **Autorização**: Token é enviado em todas as requisições autenticadas
-5. **Validação**: Backend valida o token em cada requisição protegida
+<img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215655.png" />
+3. **Login**: Sistema valida as credenciais e gera um token JWT
+<img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215637.png" />
+5. **Armazenamento**: Token é armazenado no localStorage do navegador
+<img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215750.png"/>
+7. **Autorização**: Token é enviado em todas as requisições autenticadas
+8. **Validação**: Backend valida o token em cada requisição protegida
 
 ### Segurança Implementada
 
@@ -98,6 +101,7 @@ O sistema implementa autenticação baseada em JSON Web Tokens (JWT), garantindo
 ## 🔄 Lazy Loading de Mensagens
 
 Para otimizar a performance e a experiência do usuário, implementamos lazy loading no carregamento do histórico de mensagens.
+<img scr="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215556.png" />
 
 ### Benefícios:
 
@@ -111,7 +115,7 @@ Para otimizar a performance e a experiência do usuário, implementamos lazy loa
 ## 🤖 Integração com OpenAI
 
 A plataforma conta com um assistente de IA inteligente, integrado à API da OpenAI, oferecendo respostas contextuais e naturais.
-
+<img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215613.png" />
 ### Exemplo de Integração:
 
 ```csharp
