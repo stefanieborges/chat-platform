@@ -194,6 +194,7 @@ O projeto está hospedado na Microsoft Azure, com deploy automatizado via Azure 
 ### CI/CD Automatizado
 
 O projeto utiliza Azure Pipelines com arquivo YML configurado para deploy automático:
+Exemplo Backend:
 
 ```yaml
 trigger:
@@ -224,7 +225,7 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(build.artifactStagingDirectory)'
-    ArtifactName: 'backend' //ou 'client'
+    ArtifactName: 'backend'
 ```
 
 ### Vantagens do Deploy Automatizado:
