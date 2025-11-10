@@ -82,12 +82,12 @@ O sistema implementa autenticação baseada em JSON Web Tokens (JWT), garantindo
 
 1. **Cadastro**: Usuário cria uma conta com credenciais seguras
 <img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215655.png" />
-3. **Login**: Sistema valida as credenciais e gera um token JWT
+2. **Login**: Sistema valida as credenciais e gera um token JWT
 <img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215637.png" />
-5. **Armazenamento**: Token é armazenado no localStorage do navegador
+3. **Armazenamento**: Token é armazenado no localStorage do navegador
 <img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215750.png"/>
-7. **Autorização**: Token é enviado em todas as requisições autenticadas
-8. **Validação**: Backend valida o token em cada requisição protegida
+4. **Autorização**: Token é enviado em todas as requisições autenticadas
+5. **Validação**: Backend valida o token em cada requisição protegida
 
 ### Segurança Implementada
 
