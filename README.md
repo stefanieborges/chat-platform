@@ -104,7 +104,7 @@ O sistema implementa autenticação baseada em JSON Web Tokens (JWT), garantindo
 ## 🔄 Lazy Loading de Mensagens
 
 Para otimizar a performance e a experiência do usuário, implementamos lazy loading no carregamento do histórico de mensagens.
-<img scr="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215556.png" />
+<img src="https://github.com/stefanieborges/chat-platform/blob/main/img/Captura%20de%20tela%202025-11-09%20215556.png" />
 
 ### Benefícios:
 
