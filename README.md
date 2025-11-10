@@ -59,6 +59,7 @@ Esta é uma plataforma de chat completa desenvolvida com .NET e Angular, que ofe
 - **Entity Framework Core** - ORM para acesso ao banco de dados
 - **SQL Server** - Banco de dados relacional
 - **JWT Bearer Authentication** - Segurança e autenticação
+-  **SignalR** - sem a necessidade de recarregar a página mantendo a comunicação em tempo real
 
 ### Frontend
 - **Angular 22**
